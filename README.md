@@ -2,7 +2,7 @@
 
 Dockerfile and tooling to run hiera-eyaml from a docker container
 
-## build docker imagea and push to docker hub
+## build docker image and push to docker hub
 
 ```bash
 docker build -t d-eyaml .
@@ -12,6 +12,10 @@ docker login --username=lefju418
 docker push lefju418/d-eyaml:v1.0
 docker push lefju418/d-eyaml
 ```
+
+## docker hub repository
+
+https://hub.docker.com/repository/docker/lefju418/d-eyaml
 
 ## sample script using the image
 
